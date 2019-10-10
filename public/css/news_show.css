@@ -1,0 +1,80 @@
+.newsTop {
+    margin-right: 10.667%;
+    margin-left: 6.333%;
+    margin-top: 3%;
+    padding-left: 27px;
+}
+
+.newsTop > div, .newsTop ul {
+    background-color: white;
+    box-shadow:2px 4px 10px rgba(151, 154, 154, .3);
+    border: 1px solid #ECF0F1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 3.5%;
+}
+
+.newsTop ul li {
+    list-style-type: none;
+}
+
+.newsTop h2, {
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.newsTop h4 {
+    font-size: 26px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.newsTop .text-justify {
+    font-size: 18px;
+}
+
+.newsTop a {
+    color: #2E4053;
+    text-decoration: none;
+}
+
+.newsDetail span {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #085FEE;
+    color: white;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-item .badge {
+    border-radius: 0;
+    padding: 8px;
+    background-color: #F1C40F;
+    color: black;
+}
+
+.newsContent {
+    font-size: 17px;
+}
+
+.productsShow {
+    background-color: #D0D3D4;
+}
+
+.leftShift {
+    margin-left: 25%;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 1026px) {
+    .newsTop {
+        margin-left: -1%;
+        padding-left: 10px;
+    }
+}

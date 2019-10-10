@@ -1,0 +1,131 @@
+.innerContainer {
+    padding: 40px 30px 40px 30px;
+}
+
+
+#sidebarAdmin {
+    flex: 14.66%;
+    width: 14.66%;
+    position: fixed;
+    height: 100%;
+    top: -1;
+    left: 0;
+    z-index: 99;
+    background: #566573;
+    box-shadow: 3px 5px 6px rgba(174, 182, 191);
+    margin-bottom: 30px;
+}
+
+.page-heading {
+    padding-bottom: 5px;
+}
+
+.page-heading h2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.page-heading span {
+    padding-left: 7px;
+}
+
+.rightContent {
+    margin-top: 40px;
+    margin-left: 14.66%;
+    padding-left: 15px;
+}
+
+.dashContent ul, h2 {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.dashContent ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 5px 10px 5px;
+}
+
+#sidebarAdmin .dropdown {
+    display: none;
+}
+
+#sidebarAdmin ul {
+    padding-top: 20px;
+    margin: 5px -25px 5px -15px;
+    padding-bottom: 20px;
+}
+
+#sidebarAdmin ul li {
+    display: inline;
+}
+
+#sidebarAdmin ul li:hover {
+    border-right: 6px solid rgba(241, 196, 15, 0.5);
+    background: #F4F6F7;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#sidebarAdmin ul li a:hover {
+    color: #000000;
+}
+
+#sidebarAdmin li a {
+    color: azure;
+}
+
+.checkInput {
+    margin-left: 10px;
+}
+
+.message {
+    margin-top: 2%;
+}
+
+.profile {
+    margin-top: 3%;
+}
+
+
+.profile div {
+    background-color: white;
+    box-shadow:2px 4px 10px rgba(151, 154, 154, .3);
+    border: 1px solid #ECF0F1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 3.5%;
+    margin-left: 22%;
+}
+
+
+.profile ul li {
+    list-style-type: none;
+    
+}
+
+.profile-img {
+    height: 25%;
+    width: 20%;
+    margin: 0 15px 20px 0;
+}
+
+.btn-edit-profile {
+    border-radius: 0%;
+}
+
+.profile .value {
+    padding-left: 10px;
+}
+
+.profile .column {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1026px) {
+    .profile div {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}

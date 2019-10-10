@@ -1,0 +1,49 @@
+.loginField {
+    padding-top: 15px;
+    margin-top: 5%;
+}
+
+.loginField > div {
+    margin-top: 5px;
+    padding-top: 15px;
+}
+
+.resetEmail {
+    padding-bottom: 7.4%;
+}
+
+.card {
+    box-shadow: 2px 2px 19px #264348;
+}
+
+.social-btns {
+    text-align: center;
+}
+
+.social-btns a {
+    display: inline-block;
+    background-color: #0C42A7;
+}
+
+.pg-title h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+.btn-login, #password, #email, .card, .btn-fb {
+    border-radius: 0%; 
+}
+
+.btn-login {
+    background-color: #F9690E;
+    border: 0;
+}
+
+.card, .card-header {
+    border: 0ch;
+    background-color: white;
+}
+
